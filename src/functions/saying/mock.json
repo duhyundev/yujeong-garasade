@@ -1,0 +1,86 @@
+{
+  "message": "Hello undefined, welcome to the exciting Serverless world!",
+  "event": {
+    "resource": "/hello",
+    "path": "/hello",
+    "httpMethod": "POST",
+    "headers": {
+      "Accept": "application/json,/",
+      "Accept-Encoding": "gzip,deflate",
+      "CloudFront-Forwarded-Proto": "https",
+      "CloudFront-Is-Desktop-Viewer": "true",
+      "CloudFront-Is-Mobile-Viewer": "false",
+      "CloudFront-Is-SmartTV-Viewer": "false",
+      "CloudFront-Is-Tablet-Viewer": "false",
+      "CloudFront-Viewer-Country": "US",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Host": "oxwupudksd.execute-api.ap-northeast-2.amazonaws.com",
+      "User-Agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+      "Via": "1.1 fc1cc7c682d30bba517abb52ab524f90.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Id": "LMC2nhesOv6h71at0IVtf-o8rC_piXbKWD4pIKFHGyEmovIdpTQI9w==",
+      "X-Amzn-Trace-Id": "Root=1-603bbd1e-685374373d9a3b696ee0b05c",
+      "X-Forwarded-For": "3.215.115.218, 130.176.133.146",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": ["application/json,/"],
+      "Accept-Encoding": ["gzip,deflate"],
+      "CloudFront-Forwarded-Proto": ["https"],
+      "CloudFront-Is-Desktop-Viewer": ["true"],
+      "CloudFront-Is-Mobile-Viewer": ["false"],
+      "CloudFront-Is-SmartTV-Viewer": ["false"],
+      "CloudFront-Is-Tablet-Viewer": ["false"],
+      "CloudFront-Viewer-Country": ["US"],
+      "Content-Type": ["application/x-www-form-urlencoded"],
+      "Host": ["oxwupudksd.execute-api.ap-northeast-2.amazonaws.com"],
+      "User-Agent": ["Slackbot 1.0 (+https://api.slack.com/robots)"],
+      "Via": [
+        "1.1 fc1cc7c682d30bba517abb52ab524f90.cloudfront.net (CloudFront)"
+      ],
+      "X-Amz-Cf-Id": [
+        "LMC2nhesOv6h71at0IVtf-o8rC_piXbKWD4pIKFHGyEmovIdpTQI9w=="
+      ],
+      "X-Amzn-Trace-Id": ["Root=1-603bbd1e-685374373d9a3b696ee0b05c"],
+      "X-Forwarded-For": ["3.215.115.218, 130.176.133.146"],
+      "X-Forwarded-Port": ["443"],
+      "X-Forwarded-Proto": ["https"]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "3p5kg4",
+      "resourcePath": "/hello",
+      "httpMethod": "POST",
+      "extendedRequestId": "bdp8tEF0oE0Fh1Q=",
+      "requestTime": "28/Feb/2021:15:56:14 +0000",
+      "path": "/dev/hello",
+      "accountId": "745904704958",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "oxwupudksd",
+      "requestTimeEpoch": 1614527774009,
+      "requestId": "2c0da53b-fd7d-47a0-9c16-d0ab7c53c5e6",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "3.215.115.218",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+        "user": null
+      },
+      "domainName": "oxwupudksd.execute-api.ap-northeast-2.amazonaws.com",
+      "apiId": "oxwupudksd"
+    },
+    "body": "token=ndurV5uixV3vuFvJrkw0jfFX&team_id=T01FWCW3L2G&team_domain=duhyunkim&channel_id=C01PJB7CBQD&channel_name=yujeong-garasade&user_id=U01FM5HB1L5&user_name=duhyun.dev&command=%2F%EB%9E%9C%EB%8D%A4%EC%9C%A0%EC%A0%95%EB%AA%85%EC%96%B8%ED%85%8C%EC%8A%A4%ED%8A%B8&text=&is_enterprise_install=false&response_url=https%3A%2F%2Fhooks.slack.com%2Fcommands%2FT01FWCW3L2G%2F1809721785428%2Fsv0oX6BS6F0DJHHhKIEf6A4Z",
+    "isBase64Encoded": false
+  }
+}
